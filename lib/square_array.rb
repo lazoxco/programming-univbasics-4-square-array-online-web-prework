@@ -5,5 +5,6 @@ def square_array(numbers)
   while index < numbers.length do
     new_numbers[index] = numbers[index] ** 2
   end 
-
+  
+  
 end
