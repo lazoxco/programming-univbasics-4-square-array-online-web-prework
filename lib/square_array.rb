@@ -8,5 +8,5 @@ def square_array(numbers)
       result[index] = numbers[index]**2 
       index += 1 
     end 
-
+  result
 end
