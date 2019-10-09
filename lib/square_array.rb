@@ -1,6 +1,8 @@
+# Define a method that takes an array on numbers and returns a new array of squared numbers
+
 def square_array(numbers)
   
-    result = []
+    result = [] # New array that will be returned
     
     index = 0 
     
@@ -8,5 +10,7 @@ def square_array(numbers)
       result[index] = numbers[index]**2 
       index += 1 
     end 
+    
   result
+  
 end
